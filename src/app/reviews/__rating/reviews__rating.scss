@@ -1,0 +1,15 @@
+.reviews__rating {
+  user-select: none;
+}
+
+.reviews__rating-item {
+  display: inline-block;
+  padding-right: 16px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #AFAFAF;
+
+  &:last-child {
+    padding-right: 0;
+  }
+}

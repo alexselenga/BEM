@@ -1,0 +1,26 @@
+.cols {
+  box-sizing: border-box;
+  display: flex;
+}
+
+.cols__col {
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.cols_col-wrapper {
+  padding: 0;
+}
+
+@media (max-width: 576px) {
+  .cols {
+    display: block;
+  }
+
+  .cols__col {
+    min-width: auto;
+    padding: 0;
+  }
+}

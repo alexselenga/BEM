@@ -1,0 +1,27 @@
+.reviews__stars {
+  user-select: none;
+}
+
+.reviews__rating-stars {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+  color: #ED8A19;
+}
+
+.reviews__void-stars {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+  color: #AFAFAF;
+}
+
+.reviews__rating-value {
+  padding-left: 8px;
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+  color: #AFAFAF;
+}

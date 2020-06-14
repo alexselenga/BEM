@@ -1,0 +1,30 @@
+.reviews__status {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.reviews__status-button {
+  text-transform: uppercase;
+  color: white;
+}
+
+.reviews__status_status-none {
+  background-color: #A0A0A0;
+}
+
+.reviews__status_status-moderation {
+  background-color: #50AD01;
+  opacity: 0.6;
+}
+
+.reviews__status_status-public {
+  background-color: #50AD01;
+}
+
+.reviews__status-date {
+  padding: 5px 0;
+  font-size: 12px;
+  line-height: 16px;
+  color: #AFAFAF;
+}

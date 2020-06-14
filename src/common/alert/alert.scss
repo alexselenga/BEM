@@ -1,0 +1,25 @@
+.alert {
+  box-sizing: border-box;
+  background-color: #F7F7F7;
+  display: flex;
+}
+
+.alert__sign {
+  min-width: 15px;
+  min-height: 15px;
+  font-size: 12px;
+  line-height: 15px;
+  color: white;
+  background-color: #FF6D00;
+  border-radius: 50%;
+  align-self: start;
+  text-align: center;
+  margin: 5px 10px 0 0;
+}
+
+.alert__caption {
+  font-size: 15px;
+  line-height: 24px;
+  color: #383838;
+  opacity: 0.8;
+}
