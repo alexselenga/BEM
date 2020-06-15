@@ -33,7 +33,7 @@ const cols = [
 const products = [
   {
     productName: 'Дрель ударная BOSCH PSB 550 RЕ, БЗП Арт.0603130020',
-    productSmallImageSrc: 'images/drill.png',
+    productSmallImageSrc: 'images/_drill.png',
     productBigImageSrc: 'images/drill.png',
     rating: {
       impression: 5,
@@ -52,15 +52,15 @@ const products = [
         status: 1,
         isExtended: true,
         images: [
-          { smallSrc: 'images/drill1.png', bigSrc: 'images/drill1.png' },
-          { smallSrc: 'images/drill2.png', bigSrc: 'images/drill2.png' },
+          { smallSrc: 'images/_drill1.png', bigSrc: 'images/drill1.png' },
+          { smallSrc: 'images/_drill2.png', bigSrc: 'images/drill2.png' },
         ]
       }
     ]
   },
   {
     productName: 'Декоративный металлический экран на радиатор 3-х секционный 3 ДМЭР',
-    productSmallImageSrc: 'images/screen.png',
+    productSmallImageSrc: 'images/_screen.png',
     productBigImageSrc: 'images/screen.png',
     reviews: [
       {
